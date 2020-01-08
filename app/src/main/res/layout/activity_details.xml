@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    android:weightSum="10">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/detail_shape"
+
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/detailSerial"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Detail Serial"
+            />
+
+        <TextView
+            android:id="@+id/detailModel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Detail Model" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/detail_shape"
+
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/detailYear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Detail Year"
+            />
+        <TextView
+            android:id="@+id/detailFuel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Detail Fuel"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="shareIt"
+        android:text="@string/share"
+        android:textSize="20sp"
+        android:layout_weight="3"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">Bu proje Atakan ÇAMURCU tarafından yapılmıştır. Kullandığınız için teşekkürler.</string>
+    <string name="about_us">Hakkımızda</string>
+    <string name="app_name">Araba Listeleme Uygulaması</string>
+    <string name="cardetails">Araç Detayları</string>
+    <string name="close">kapat</string>
+    <string name="email_address">E-posta Adresi</string>
+    <string name="item_content_description">Araç resmi</string>
+    <string name="login_button">GİRİŞ</string>
+    <string name="login_content_description">Giriş sayfası resmi</string>
+    <string name="menu_about">Hakkımızda !</string>
+    <string name="menu_logout">Çıkış Yap</string>
+    <string name="notification_message">Hey, Yeni Araçlarımıza bakmaya ne dersin :)</string>
+    <string name="notificationtitle">Yeni Araçlar Mevcut</string>
+    <string name="open">açık</string>
+    <string name="password">Şifre</string>
+    <string name="share">PAYLAŞ</string>
+    <string name="wishlist">İstek Listesi</string>
+    <string name="thanks"><![CDATA[Bizi desteklediğin için teşekkür ederiz <3]]></string>
+
+
+    <string-array name="brands">
+        <item>MERCEDES</item>
+        <item>RENAULT</item>
+        <item>OPEL</item>
+        <item>BMW</item>
+    </string-array>
+    <string name="all">Hepsi</string>
+    <string name="empty_list_text">Sonuç bulunamadı.</string>
+    <string name="wish_menu">İstek Listesi</string>
+    <string name="add_wish">Ekle</string>
+    <string name="wish">İstek</string>
+    <string name="add_record">İstek Ekle</string>
+    <string name="enter_desc">İsteğinizi Giriniz.</string>
+    <string name="btn_update">GÜNCELLE</string>
+    <string name="btn_delete">SİL</string>
+
+</resources>
